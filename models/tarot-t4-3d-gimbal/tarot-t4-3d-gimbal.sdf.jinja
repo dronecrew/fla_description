@@ -1,0 +1,165 @@
+{# vim: set et ft=jinja fenc=utf-8 ff=unix sts=0 sw=2 ts=2 : #}
+<!-- vim: set et fenc=utf-8 ff=unix sts=0 sw=2 ts=2 : -->
+
+{%- set base = {
+  'name': 'base-link',
+  'parent': None,
+  'pose': [0, 0, 0, 0, 0, 0],
+  'm': 0.1,
+  'l': 0.02,
+  'r': 0.03,
+  'collide': True,
+  'color': 'Red',
+} -%}
+
+{%- set pan = {
+  'name': 'pan-link',
+  'parent': 'base-link',
+  'pose': [0, 0, -0.02, 0, 0, 0],
+  'm': 0.1,
+  'l': 0.02,
+  'r': 0.03,
+  'collide': False,
+  'joint': 'pan-joint',
+  'joint_axis': [0, 0, 1],
+  'joint_lower_limit': 0,
+  'joint_upper_limit': 0,
+  'color': 'Green',
+  'joint_pose': [0, 0, 0, 0, 0, 0],
+} -%}
+
+{%- set roll = {
+  'name': 'roll-link',
+  'parent': 'pan-link',
+  'pose': [0.02, 0, -0.02, 0, 0, 0],
+  'm': 0.1,
+  'l': 0.02,
+  'r': 0.03,
+  'collide': False,
+  'joint': 'roll-joint',
+  'joint_axis': [1, 0, 0],
+  'joint_lower_limit': -10000,
+  'joint_upper_limit': 10000,
+  'joint_pose': [0, 0, 0, 0, 0, 0],
+  'color': 'Blue',
+} -%}
+
+{%- set tilt = {
+  'name': 'tilt-link',
+  'parent': 'roll-link',
+  'pose': [0.04, 0, -0.02, 0, 0, 0],
+  'm': 0.1,
+  'l': 0.02,
+  'r': 0.03,
+  'collide': False,
+  'joint': 'tilt-joint',
+  'joint_axis': [0, 1, 0],
+  'joint_lower_limit': -10000,
+  'joint_upper_limit': 10000,
+  'joint_pose': [0, 0, 0, 0, 0, 0],
+  'color': 'Orange',
+} -%}
+
+{%- macro cylinder(r, l) -%}
+<geometry>
+  <cylinder>
+    <radius>{{r}}</radius>
+    <length>{{l}}</length>
+  </cylinder>
+</geometry>
+{%- endmacro -%}
+
+<?xml version="1.0" ?>
+<sdf version="1.5">
+
+  <model name="tarot-t4-3d-gimbal">
+
+    <self_collide>false</self_collide>
+    <static>false</static>
+
+    {% set links = [base, pan, roll, tilt ] %}
+
+    {% for link in links %}
+    <!--Link {{link.name}} -->
+
+      <link name="{{link.name}}">
+
+        <pose>{{ link.pose | join(' ') }}</pose>
+
+        {% set ixx = link.m/12*(3*link.r**2 + link.l**2) %}
+        {% set iyy = ixx %}
+        {% set izz = link.m*link.r**2/2 %}
+
+        link.m/12*(link.l**2 + link.w**2) %}
+        <inertial>
+          <mass>{{link.m}}</mass>
+          <inertia>
+            <ixx>{{ixx}}</ixx>
+            <iyy>{{iyy}}</iyy>
+            <izz>{{izz}}</izz>
+          </inertia>
+        </inertial>
+
+        <visual name="visual">
+          {{ cylinder(link.r, link.l)|indent(8) }}
+          <material>
+            <script>
+              <name>Gazebo/{{link.color}}</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+
+        {% if link.collide  %}
+        <collision name="collision">
+          {{ cylinder(link.r, link.l)|indent(8) }}
+        </collision>
+        {% endif %}
+
+        {% if link == links[-1] %}
+        <sensor name="camera_imu" type="imu">
+          <always_on>1</always_on>
+        </sensor>
+        {% endif %}
+
+      </link>
+
+      {% if link.parent is not none %}
+      <joint name="{{link.joint}}" type="revolute">
+        <pose>{{ link.joint_pose | join(' ') }}</pose>
+        <child>{{link.name}}</child>
+        <parent>{{link.parent}}</parent>
+        <axis>
+          <xyz>{{ link.joint_axis | join(' ') }}</xyz>
+          <limit>
+            <lower>{{ link.joint_lower_limit }}</lower>
+            <upper>{{ link.joint_upper_limit }}</upper>
+            <effort>100</effort>
+            <velocity>-1</velocity>
+          </limit>
+          <dynamics>
+            <damping>-1</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>0.0</spring_stiffness>
+          </dynamics>
+        </axis>
+        <physics>
+          <ode>
+            <implicit_spring_damper>1</implicit_spring_damper>
+          </ode>
+        </physics>
+      </joint>
+      {% endif %}
+
+    {% endfor %}
+
+  <plugin name='gimbal_controller' filename='librotors_gazebo_gimbal_controller_plugin.so'>
+    <joint_yaw>pan-joint</joint_yaw>
+    <joint_roll>roll-joint</joint_roll>
+    <joint_pitch>tilt-joint</joint_pitch>
+    <imu>camera_imu</imu>
+  </plugin>
+
+  </model>
+
+</sdf>

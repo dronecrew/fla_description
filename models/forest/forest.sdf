@@ -1,0 +1,555 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Forest">
+
+    <static>true</static>
+
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> 12.210877104 30.8480549621 0.116465874016 0.106833679527 -0.134627703021 2.70387383093</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> -30.1481240974 34.9363034394 0.204819276929 0.167226864147 -0.152879085019 1.12411610663</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> 18.3462935172 -0.0995125523459 0.164658635855 0.140087031879 -0.0171481977181 0.17590860792</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> -47.7856086397 5.73373510408 0.0682730972767 0.154049948903 -0.0636846181346 1.93332411321</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> -13.1175993998 42.4618758357 0.662650644779 0.0687279858378 -0.0790162579357 1.69064128608</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> -3.41636570685 -29.0622102595 0.0843373537064 0.151691345671 -0.0761266235668 2.52002113945</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> 20.4260971118 35.6233175485 0.15662650764 0.0657067993672 -0.0572314552634 2.55577650518</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> -45.257352248 -14.6552323619 0.216867476702 0.0321641638145 -0.00826505533286 2.12020101441</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 3.33101629988 -9.46247799344 0.104417681694 0.0458369003041 -0.075075575262 2.40184426376</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> -41.9053043371 -9.97308128468 0.927710831165 0.0987759740526 -0.00118055152535 1.9397503364</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> 29.0524133057 -41.2122886433 0.654618501663 0.0667956183968 -0.0206916014679 2.8158990887</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> -12.4595064833 -26.4308531768 0.0803212895989 0.0341517613215 -0.0667269832579 0.169249173477</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> 48.2004741522 4.83515917391 0.582329332829 0.115461327109 -0.154681720794 2.10856303691</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> -29.2638204194 17.0319210949 0.89156627655 0.0400061867399 -0.157073558033 1.30926985272</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> -49.3791483413 -3.58516625316 0.108433745801 0.120520974691 -0.165478719244 1.83357374559</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> -33.1342662081 -3.15532656441 0.81526106596 0.0261509167452 -0.130212629181 2.61068546251</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> -6.16901188776 -13.3725768951 0.863453805447 0.0299268209596 -0.0230090285097 1.29404766279</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> 6.3560795058 47.5143958029 0.333333343267 0.0937029214869 -0.142977733094 0.179434069025</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> 26.7116628379 -16.9421743075 0.0722891613841 0.00812129257522 -0.160108558865 0.499293588554</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> 26.3161525351 -44.3382681513 0.666666686535 0.103653968525 -0.0199082200665 2.98705723999</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> -30.6381309846 17.4292585575 0.610441803932 0.0640442361446 -0.163619856557 1.92694240492</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 0.294625150106 -19.9349823207 0.686747014523 0.157393102779 -0.123312427054 2.28286488451</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 27.9163800769 -40.008783681 0.29718875885 0.0651089132947 -0.162950285158 1.31546277948</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 7.24848290782 26.5788431037 0.0682730972767 0.00960042709492 -0.0564081362829 1.85505329898</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> -21.2937575 -35.3898567126 0.15662650764 0.170054773187 -0.13491127404 0.0852582378805</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> -37.9671681164 27.8977652508 0.289156645536 0.00163163405397 -0.157192838427 3.07009450017</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> -41.5226156606 -5.68946791368 0.879518091679 0.0643254503617 -0.166222483089 0.618172689482</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> 46.0458293367 -34.9930027671 0.915662646294 0.116550802139 -0.0446199159182 0.340270594424</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> 28.24779926 -27.6180723174 0.224899604917 0.00248858868872 -0.0591902762179 1.26088262217</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 15.2105500536 3.24263334143 0.341365486383 0.166189450237 -0.155327895825 3.12138392802</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 4.51221661797 -31.8703510204 0.0803212895989 0.00140820350041 -0.0729338640309 0.0199250283495</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> -13.7217213786 7.57936659003 0.108433745801 0.15209204979 -0.037635243786 2.30889840518</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> 30.1602598503 13.4380912633 0.0602409690619 0.136078091917 -0.091058595442 1.58800168277</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> -9.17511007779 43.479374915 0.77911645174 0.0774767330488 -0.00541660509676 1.14115136212</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> -2.44334269164 -23.072179141 0.301204830408 0.0374231903998 -0.157920415166 1.66062699102</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 2.23597148585 -25.7548702785 0.15662650764 0.064516073974 -0.105476181662 0.323912147661</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> 44.5553235842 -30.2374182337 0.879518091679 0.00616698497413 -0.164749850565 1.27413318085</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> 28.2635910188 5.20981049181 0.875501990318 0.00716956238894 -0.0767040397918 0.886148358437</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> -41.6472992956 16.5004031108 0.771084368229 0.151630757378 -0.138115923745 1.5446383598</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> -46.4402635047 10.4173054018 0.0642570331693 0.0724500519454 -0.0838436115358 3.08920211426</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> -48.7593018272 12.6576292646 0.0481927767396 0.075922203722 -0.013677757848 0.705939490088</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> -0.000984063133643 -19.7626042052 0.70281124115 0.0389765572649 -0.0732276958785 0.22905421491</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> 25.5686148951 -15.0839070137 0.15662650764 0.150374997428 -0.0189970709538 1.1492209362</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> -9.43194113587 -6.54868619718 0.14056225121 0.07457857952 -0.000382127766081 0.13183770403</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 9.82371851052 35.8212616837 0.38955822587 0.0673916935857 -0.170885251527 0.689282376937</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 47.5426672809 40.7144732604 0.244979932904 0.0534659281137 -0.132432694206 1.76958094797</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 6.55167240598 46.1835817821 0.31325301528 0.119694044637 -0.00599335794526 0.168077247196</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 31.6354227286 41.5477428171 0.847389578819 0.119761015761 -0.0419546674407 2.47534815028</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 22.7796015599 -35.647745706 0.15662650764 0.0246308662331 -0.150214667433 1.41724981834</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 4.20532116156 -47.9781339566 0.489959865808 0.0688861530115 -0.0054191772274 1.81219581348</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 45.1488865174 -35.0251745349 0.899598419666 0.0733116000157 -0.0309903075817 2.45621408322</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 28.1566065292 -4.31644929512 0.919678747654 0.0301752017459 -0.0988921841643 1.61479198498</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 22.0347247931 -36.8870887547 0.220883533359 0.112440201224 -0.056131050016 0.513767904461</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> 39.0000387905 28.4554661054 0.92369478941 0.111860387951 -0.0575971548585 1.90592640242</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 12.7965065461 -32.2159788576 0.15662650764 0.149497695091 -0.140170597163 1.1089034771</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> -14.2625201291 -33.2924102055 0.15662650764 0.0344969648824 -0.0289215774064 1.57390794213</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> -10.6008188691 -49.0204060085 0.550200819969 0.0396693360088 -0.0676300319047 1.5399028244</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> 1.3349274424 -2.52112907287 0.795180737972 0.0936728726139 -0.134955614788 2.76568092758</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> 35.2602240255 -13.7391446957 0.0763052254915 0.0718036300643 -0.0569205424053 1.89857578288</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> 48.2869884246 2.79839183966 0.610441803932 0.0253375153171 -0.0102448079923 0.185336941817</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> 1.59860884416 44.8028770132 0.449799209833 0.0890672575385 -0.0474656879976 0.456510920592</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> -8.8767123214 23.6285738663 0.128514066339 0.154171175256 -0.0993334213033 2.99469457601</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 27.9285591582 -38.5387244155 0.15662650764 0.166294247765 -0.174225490715 2.23998559616</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> -10.1755207597 4.38228705891 0.112449809909 0.0242006178667 -0.126578134318 3.05924808426</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> -5.52020019995 -3.54818765953 0.15662650764 0.0134474064477 -0.0404281949045 1.3438577065</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 25.3495031481 29.2462714538 0.0 0.108727407787 -0.0720755827519 1.14059040565</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 36.8148709572 46.3397058655 0.534136593342 0.00580341173866 -0.0530331221957 0.558245110092</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> -33.5907855493 25.5727787932 0.208835348487 0.0885850707601 -0.00369892895222 1.36194877082</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> -26.1180010593 5.36869440462 0.526104450226 0.141268067588 -0.118821099187 0.089796919298</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 41.9725926718 12.442202503 0.578313291073 0.105594357312 -0.13151818989 0.850065422715</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> -40.1671469786 -2.23032831325 0.795180737972 0.0230170379612 -0.172542469195 0.218584420904</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 36.7882527502 44.2560768286 0.574297189713 0.0797612816233 -0.162621391972 2.65786494526</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 40.2555026048 2.66701239297 0.883534133434 0.0145150774791 -0.133551338528 0.975924113499</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> -23.342384185 -27.1181486686 0.152610450983 0.101313978129 -0.162452913635 1.0649901759</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> 1.62727085258 37.991687693 0.325301229954 0.0766547569273 -0.0289002364588 3.09674747113</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 34.1861443678 -27.1683616702 0.714859426022 0.163791400374 -0.163824013477 2.34062647579</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> -26.2775291205 -41.0735042847 0.855421721935 0.0760571288991 -0.103233375937 2.29838089548</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> -13.9801124542 43.974706597 0.51807230711 0.0074949655479 -0.145488360185 1.16222754</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> -1.69471248235 -43.6557000901 0.883534133434 0.0978665510942 -0.0531159781438 1.10242291958</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> -31.4785352682 -41.9799001071 0.979919672012 0.113369213679 -0.171330981877 2.18280187182</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> -7.47908171971 -26.1973893036 0.0763052254915 0.0843553716362 -0.0758983001496 0.510240056562</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> -45.7850015307 -19.3394426183 0.132530122995 0.110117159032 -0.0962098845746 1.78153817741</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 43.8987303806 -31.8344975336 0.835341393948 0.110143934052 -0.0626416368143 2.53191338117</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 32.6957393679 29.3625735374 0.192771092057 0.0973831622765 -0.0563343881361 1.06383997889</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 47.8818205593 16.7698445958 0.678714871407 0.146733441006 -0.0521298524494 1.25376812347</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 30.1482708811 -37.5513870588 0.188755020499 0.0158982355226 -0.151818461918 0.0859846981977</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> -17.2500110425 -46.8624522196 0.542168676853 0.0616916001774 -0.102456517247 1.67613303888</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> -8.09877132455 30.7659517099 0.514056265354 0.170079057505 -0.0315267728233 2.38870969517</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 26.8078868144 1.78381847956 0.971887528896 0.141607155446 -0.0359668974831 1.01768426822</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 10.1425220586 -25.066714038 0.144578322768 0.0602974702113 -0.103274879517 0.719592660326</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 43.282698564 23.2431637522 0.895582318306 0.13760100582 -0.156238444962 1.65776104585</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 2.32506507316 42.6029885252 0.70682734251 0.023605899896 -0.00696101055685 2.62109933842</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_oak</uri>
+      <pose> 2.31023136101 38.2942130705 0.28112450242 0.00358740937621 -0.162911631014 0.91603586957</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> -42.8033045954 44.7017169228 0.979919672012 0.00562416503024 -0.0423121665226 0.354078932405</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> -45.7927028757 9.50099826002 0.176706835628 0.0806372082776 -0.117892345455 2.79961423348</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 5.6470937308 42.8196001147 0.62650603056 0.168833075133 -0.011787816748 0.997726069789</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_pine</uri>
+      <pose> 14.026537553 -19.6862971076 0.15662650764 0.146223936107 -0.0345488490515 0.908000443475</pose>
+    </include>
+    
+    <include>
+      <uri>model://tree_maple</uri>
+      <pose> 2.32749563805 -37.9044824598 0.212851405144 0.062712308923 -0.0153597319721 2.29200421133</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> -45.8736118809 -38.1049928381 0.550200819969 0.112470712029 -0.0988814747326 0.678138251428</pose>
+    </include>
+    
+    <include>
+      <uri>model://fern</uri>
+      <pose> 16.3745421455 33.5612393075 0.14056225121 0.0124046142015 -0.142461646319 2.72098255784</pose>
+    </include>
+    
+
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <heightmap>
+            <uri>/home/jgoppert/git/fla/src/fla_description/models/forest/materials/textures/heightmap.png</uri>
+            <size> 100 100 1 </size>
+            <pos>0 0 0.0</pos>
+          </heightmap>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <heightmap>
+            <texture>
+              <diffuse>file://media/materials/textures/dirt_diffusespecular.png</diffuse>
+              <normal>file://media/materials/textures/flat_normal.png</normal>
+              <size> 0.4</size>
+            </texture>
+            <texture>
+              <diffuse>file://media/materials/textures/grass_diffusespecular.png</diffuse>
+              <normal>file://media/materials/textures/flat_normal.png</normal>
+              <size> 0.4</size>
+            </texture>
+            <texture>
+              <diffuse>file://media/materials/textures/fungus_diffusespecular.png</diffuse>
+              <normal>file://media/materials/textures/flat_normal.png</normal>
+              <size> 0.4</size>
+            </texture>
+            <blend>
+              <min_height> 0.06 </min_height>
+              <fade_dist> 0.4 </fade_dist>
+            </blend>
+            <blend>
+              <min_height>0.4 </min_height>
+              <fade_dist>0.2 </fade_dist>
+            </blend>
+            <uri>/home/jgoppert/git/fla/src/fla_description/models/forest/materials/textures/heightmap.png</uri>
+            <size> 100 100 1 </size>
+            <pos>0 0 0.0</pos>
+          </heightmap>
+        </geometry>
+      </visual>
+
+    </link>
+  </model>
+</sdf>

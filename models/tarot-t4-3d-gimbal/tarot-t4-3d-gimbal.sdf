@@ -1,0 +1,287 @@
+
+<!-- vim: set et fenc=utf-8 ff=unix sts=0 sw=2 ts=2 : --><?xml version="1.0" ?>
+<sdf version="1.5">
+
+  <model name="tarot-t4-3d-gimbal">
+
+    <self_collide>false</self_collide>
+    <static>false</static>
+
+    
+
+    
+    <!--Link base-link -->
+
+      <link name="base-link">
+
+        <pose>0 0 0 0 0 0</pose>
+
+        
+        
+        
+
+        link.m/12*(link.l**2 + link.w**2) %}
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>2.58333333333e-05</ixx>
+            <iyy>2.58333333333e-05</iyy>
+            <izz>4.5e-05</izz>
+          </inertia>
+        </inertial>
+
+        <visual name="visual">
+          <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.02</length>
+          </cylinder>
+        </geometry>
+          <material>
+            <script>
+              <name>Gazebo/Red</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+
+        
+        <collision name="collision">
+          <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.02</length>
+          </cylinder>
+        </geometry>
+        </collision>
+        
+
+        
+
+      </link>
+
+      
+
+    
+    <!--Link pan-link -->
+
+      <link name="pan-link">
+
+        <pose>0 0 -0.02 0 0 0</pose>
+
+        
+        
+        
+
+        link.m/12*(link.l**2 + link.w**2) %}
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>2.58333333333e-05</ixx>
+            <iyy>2.58333333333e-05</iyy>
+            <izz>4.5e-05</izz>
+          </inertia>
+        </inertial>
+
+        <visual name="visual">
+          <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.02</length>
+          </cylinder>
+        </geometry>
+          <material>
+            <script>
+              <name>Gazebo/Green</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+
+        
+
+        
+
+      </link>
+
+      
+      <joint name="pan-joint" type="revolute">
+        <pose>0 0 0 0 0 0</pose>
+        <child>pan-link</child>
+        <parent>base-link</parent>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>0</lower>
+            <upper>0</upper>
+            <effort>100</effort>
+            <velocity>-1</velocity>
+          </limit>
+          <dynamics>
+            <damping>-1</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>0.0</spring_stiffness>
+          </dynamics>
+        </axis>
+        <physics>
+          <ode>
+            <implicit_spring_damper>1</implicit_spring_damper>
+          </ode>
+        </physics>
+      </joint>
+      
+
+    
+    <!--Link roll-link -->
+
+      <link name="roll-link">
+
+        <pose>0.02 0 -0.02 0 0 0</pose>
+
+        
+        
+        
+
+        link.m/12*(link.l**2 + link.w**2) %}
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>2.58333333333e-05</ixx>
+            <iyy>2.58333333333e-05</iyy>
+            <izz>4.5e-05</izz>
+          </inertia>
+        </inertial>
+
+        <visual name="visual">
+          <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.02</length>
+          </cylinder>
+        </geometry>
+          <material>
+            <script>
+              <name>Gazebo/Blue</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+
+        
+
+        
+
+      </link>
+
+      
+      <joint name="roll-joint" type="revolute">
+        <pose>0 0 0 0 0 0</pose>
+        <child>roll-link</child>
+        <parent>pan-link</parent>
+        <axis>
+          <xyz>1 0 0</xyz>
+          <limit>
+            <lower>-10000</lower>
+            <upper>10000</upper>
+            <effort>100</effort>
+            <velocity>-1</velocity>
+          </limit>
+          <dynamics>
+            <damping>-1</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>0.0</spring_stiffness>
+          </dynamics>
+        </axis>
+        <physics>
+          <ode>
+            <implicit_spring_damper>1</implicit_spring_damper>
+          </ode>
+        </physics>
+      </joint>
+      
+
+    
+    <!--Link tilt-link -->
+
+      <link name="tilt-link">
+
+        <pose>0.04 0 -0.02 0 0 0</pose>
+
+        
+        
+        
+
+        link.m/12*(link.l**2 + link.w**2) %}
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>2.58333333333e-05</ixx>
+            <iyy>2.58333333333e-05</iyy>
+            <izz>4.5e-05</izz>
+          </inertia>
+        </inertial>
+
+        <visual name="visual">
+          <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.02</length>
+          </cylinder>
+        </geometry>
+          <material>
+            <script>
+              <name>Gazebo/Orange</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+
+        
+
+        
+        <sensor name="camera_imu" type="imu">
+          <always_on>1</always_on>
+        </sensor>
+        
+
+      </link>
+
+      
+      <joint name="tilt-joint" type="revolute">
+        <pose>0 0 0 0 0 0</pose>
+        <child>tilt-link</child>
+        <parent>roll-link</parent>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-10000</lower>
+            <upper>10000</upper>
+            <effort>100</effort>
+            <velocity>-1</velocity>
+          </limit>
+          <dynamics>
+            <damping>-1</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>0.0</spring_stiffness>
+          </dynamics>
+        </axis>
+        <physics>
+          <ode>
+            <implicit_spring_damper>1</implicit_spring_damper>
+          </ode>
+        </physics>
+      </joint>
+      
+
+    
+
+  <plugin name='gimbal_controller' filename='librotors_gazebo_gimbal_controller_plugin.so'>
+    <joint_yaw>pan-joint</joint_yaw>
+    <joint_roll>roll-joint</joint_roll>
+    <joint_pitch>tilt-joint</joint_pitch>
+    <imu>camera_imu</imu>
+  </plugin>
+
+  </model>
+
+</sdf>

@@ -1,0 +1,23 @@
+material {{ name }}
+{
+  receive_shadows on
+    technique
+    {
+        pass
+        {
+            <!--ambient 0.8 1.0 0.8 1.0-->
+            <!--diffuse 0.8 1.0 0.8 1.0-->
+            <!--specular 0.1 0.1 0.1 1.0 12.5-->
+
+            texture_unit
+            {
+                scale 1 1
+                texture {{ texture_file }}
+                <!--filtering anistropic-->
+                <!--max_anisotropy 16-->
+            }
+        }
+    }
+}
+
+{# vim: set noet fenc=utf-8 ff=unix sts=0 sw=4 ts=4 : #}

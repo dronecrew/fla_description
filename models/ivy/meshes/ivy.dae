@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.77.0 commit date:2016-04-05, commit time:18:12, hash:abf6f08</authoring_tool>
+    </contributor>
+    <created>2016-09-28T16:26:15</created>
+    <modified>2016-09-28T16:26:15</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="ivy_leaves_c_png" name="ivy_leaves_c_png">
+      <init_from>ivy_leaves_c.png</init_from>
+    </image>
+    <image id="ivy_leaves_a_png" name="ivy_leaves_a_png">
+      <init_from>ivy_leaves_a.png</init_from>
+    </image>
+    <image id="ivy_leaves_n_png_001" name="ivy_leaves_n_png_001">
+      <init_from>ivy_leaves_n.png.001.png</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="ivy_leaves-effect">
+      <profile_COMMON>
+        <newparam sid="ivy_leaves_c_png-surface">
+          <surface type="2D">
+            <init_from>ivy_leaves_c_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="ivy_leaves_c_png-sampler">
+          <sampler2D>
+            <source>ivy_leaves_c_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="ivy_leaves_a_png-surface">
+          <surface type="2D">
+            <init_from>ivy_leaves_a_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="ivy_leaves_a_png-sampler">
+          <sampler2D>
+            <source>ivy_leaves_a_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="ivy_leaves_n_png_001-surface">
+          <surface type="2D">
+            <init_from>ivy_leaves_n_png_001</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="ivy_leaves_n_png_001-sampler">
+          <sampler2D>
+            <source>ivy_leaves_n_png_001-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="ivy_leaves_c_png-sampler"/>
+            </diffuse>
+            <specular>
+              <texture texture="ivy_leaves_c_png-sampler"/>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent>
+              <texture texture="ivy_leaves_a_png-sampler"/>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0</float>
+            </transparency>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="ivy_leaves_c_png-sampler"/>
+              </bump>
+              <bump>
+                <texture texture="ivy_leaves_n_png_001-sampler"/>
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="ivy_leaves-material" name="ivy_leaves">
+      <instance_effect url="#ivy_leaves-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="ivy_branch-mesh" name="ivy branch">
+      <mesh>
+        <source id="ivy_branch-mesh-positions">
+          <float_array id="ivy_branch-mesh-positions-array" count="75">0.6943174 1.06863 -0.01569235 0.7062256 -0.9206883 -0.2482575 -0.8706741 -0.9980493 -0.07839322 -0.8655843 1.00758 0.03741604 -0.008809745 -1.014666 -0.05881953 0.7207732 0.0699349 -0.1044295 -0.02348214 0.9933372 0.1668711 -0.8664505 0.006305932 0.04864108 -0.04472088 0.01004707 0.2938387 0.440455 -0.9959378 -0.07384264 -0.5135732 -1.04086 0.07140368 0.7004114 0.5614035 -0.0405867 0.7996235 -0.3897945 -0.1281123 0.4321553 1.012923 0.1261058 -0.5026002 0.9835093 0.1464187 -0.8664217 -0.4912429 -0.02718049 -0.8662214 0.5057548 0.07237213 -0.5089432 -0.01928049 0.3141212 -0.01365512 0.4802756 0.3555316 0.4656147 -0.005678832 0.1605377 -0.0173037 -0.5139156 0.1815723 -0.5012581 0.4752907 0.3101793 0.4574162 0.4901226 0.2192232 -0.5051743 -0.5253067 0.2039494 0.4985588 -0.4852688 0.07733666</float_array>
+          <technique_common>
+            <accessor source="#ivy_branch-mesh-positions-array" count="25" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ivy_branch-mesh-normals">
+          <float_array id="ivy_branch-mesh-normals-array" count="75">-0.2303248 0.2315456 0.9451651 -0.4883677 0.08023488 0.8689417 -0.3015556 0.1283618 0.9447685 0.05014258 0.2912422 0.9553343 0.09476143 0.1041613 0.9900358 -0.5747665 -0.08209639 0.814189 -0.2875823 -0.09869903 0.9526568 0.1302569 -0.1440822 0.9809554 0.4862575 0.05652093 0.8719857 0.3560046 0.1060231 0.9284502 0.6863969 0.02481168 0.7268038 0.4815248 -0.03717178 0.8756439 0.4757289 -0.09115999 0.8748554 0.7212859 0.007385551 0.6925982 -0.2628948 -0.2137278 0.9408544 0.1420974 -0.2700949 0.9522904 -0.5143355 -0.1416993 0.8458016 -0.1613827 -0.2551361 0.9533422 0.1461875 -0.4261107 0.8927816 0.414115 -0.2168388 0.8840191 0.6264111 -0.1355062 0.7676244 0.3410185 -0.3447723 0.8745504 0.5881721 -0.2853269 0.7567313 -0.2828838 0.06698995 0.956812 -0.3943401 -0.08911639 0.9146334</float_array>
+          <technique_common>
+            <accessor source="#ivy_branch-mesh-normals-array" count="25" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ivy_branch-mesh-map-0">
+          <float_array id="ivy_branch-mesh-map-0-array" count="192">0.7489085 -0.001799285 0.9989086 0.2482007 0.7489085 0.2482007 0.4989086 -0.001799285 0.7489085 0.2482007 0.4989086 0.2482007 0.7489085 0.2482007 0.9989087 0.4982007 0.7489086 0.4982007 0.7489085 0.2482007 0.4989086 0.4982007 0.4989086 0.2482007 0.4989086 -0.001799285 0.2489086 0.2482007 0.2489085 -0.001799225 0.2489085 -0.001799225 -0.00109142 0.2482007 -0.00109142 -0.001799225 0.2489086 0.2482007 0.4989086 0.4982007 0.2489085 0.4982007 0.2489086 0.2482007 -0.00109142 0.4982007 -0.00109142 0.2482007 0.9989087 0.4982007 0.7489086 0.7482007 0.7489086 0.4982007 0.7489086 0.4982007 0.4989086 0.7482007 0.4989086 0.4982007 0.9989088 0.7482008 0.7489087 0.9982008 0.7489086 0.7482007 0.4989086 0.7482007 0.7489087 0.9982008 0.4989086 0.9982007 0.2489085 0.4982007 0.4989086 0.7482007 0.2489086 0.7482008 0.2489085 0.4982007 -0.00109142 0.7482007 -0.00109142 0.4982007 0.4989086 0.7482007 0.2489085 0.9982008 0.2489086 0.7482008 0.2489086 0.7482008 -0.00109142 0.9982007 -0.00109142 0.7482007 0.7489085 -0.001799285 0.9989085 -0.001799285 0.9989086 0.2482007 0.4989086 -0.001799285 0.7489085 -0.001799285 0.7489085 0.2482007 0.7489085 0.2482007 0.9989086 0.2482007 0.9989087 0.4982007 0.7489085 0.2482007 0.7489086 0.4982007 0.4989086 0.4982007 0.4989086 -0.001799285 0.4989086 0.2482007 0.2489086 0.2482007 0.2489085 -0.001799225 0.2489086 0.2482007 -0.00109142 0.2482007 0.2489086 0.2482007 0.4989086 0.2482007 0.4989086 0.4982007 0.2489086 0.2482007 0.2489085 0.4982007 -0.00109142 0.4982007 0.9989087 0.4982007 0.9989088 0.7482008 0.7489086 0.7482007 0.7489086 0.4982007 0.7489086 0.7482007 0.4989086 0.7482007 0.9989088 0.7482008 0.9989087 0.9982007 0.7489087 0.9982008 0.4989086 0.7482007 0.7489086 0.7482007 0.7489087 0.9982008 0.2489085 0.4982007 0.4989086 0.4982007 0.4989086 0.7482007 0.2489085 0.4982007 0.2489086 0.7482008 -0.00109142 0.7482007 0.4989086 0.7482007 0.4989086 0.9982007 0.2489085 0.9982008 0.2489086 0.7482008 0.2489085 0.9982008 -0.00109142 0.9982007</float_array>
+          <technique_common>
+            <accessor source="#ivy_branch-mesh-map-0-array" count="96" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ivy_branch-mesh-vertices">
+          <input semantic="POSITION" source="#ivy_branch-mesh-positions"/>
+        </vertices>
+        <polylist material="ivy_leaves-material" count="32">
+          <input semantic="VERTEX" source="#ivy_branch-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ivy_branch-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ivy_branch-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>14 0 0 16 1 1 21 2 2 6 3 3 21 2 4 18 4 5 21 2 6 7 5 7 17 6 8 21 2 9 8 7 10 18 4 11 6 3 12 22 8 13 13 9 14 13 9 15 11 10 16 0 11 17 22 8 18 8 7 19 19 12 20 22 8 21 5 13 22 11 10 23 7 5 24 23 14 25 17 6 26 17 6 27 20 15 28 8 7 29 15 16 30 10 17 31 23 14 32 20 15 33 10 17 34 4 18 35 19 12 36 20 15 37 24 19 38 19 12 39 12 20 40 5 13 41 20 15 42 9 21 43 24 19 44 24 19 45 1 22 46 12 20 47 14 0 48 3 23 49 16 1 50 6 3 51 14 0 52 21 2 53 21 2 54 16 1 55 7 5 56 21 2 57 17 6 58 8 7 59 6 3 60 18 4 61 22 8 62 13 9 63 22 8 64 11 10 65 22 8 66 18 4 67 8 7 68 22 8 69 19 12 70 5 13 71 7 5 72 15 16 73 23 14 74 17 6 75 23 14 76 20 15 77 15 16 78 2 24 79 10 17 80 20 15 81 23 14 82 10 17 83 19 12 84 8 7 85 20 15 86 19 12 87 24 19 88 12 20 89 20 15 90 4 18 91 9 21 92 24 19 93 9 21 94 1 22 95</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="ivy" name="ivy" type="NODE">
+        <matrix sid="transform">0.01218946 0.5573099 0.1050025 1.835073 -0.5662605 0.006196171 0.03284898 -2.362622 0.0311266 -0.1055259 0.5564745 0.03417472 0 0 0 1</matrix>
+        <instance_geometry url="#ivy_branch-mesh" name="ivy">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="ivy_leaves-material" target="#ivy_leaves-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
