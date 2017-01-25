@@ -25,15 +25,14 @@ def populate_map(**kwargs):
         'seed': 1234,
         'roll_pitch_yaw_range_deg': [[-10, 10], [-10, -10], [-180, 180]],
         'model_options': ["tree_maple", "tree_oak", "tree_pine", "fern"],
-        'heightmap_file': os.path.join(fla_path,
-            'models', 'forest', 'materials', 'textures', 'heightmap.png'),
+        'heightmap_file': "model://forest/materials/textures/heightmap.png",
         'model_list': [],
     }
     for key in data.keys():
         if key in kwargs.keys():
             data[key] = kawrgs[key]
 
-    with open(data['heightmap_file'], 'r') as f:
+    with open(data['heightmap_file'].replace('model://forest', script_dir), 'r') as f:
         heightmap_img = pl.imread(f)
 
     pl.seed(data['seed'])

@@ -510,7 +510,7 @@
       <collision name="collision">
         <geometry>
           <heightmap>
-            <uri>/home/jgoppert/git/fla/src/fla_description/models/forest/materials/textures/heightmap.png</uri>
+            <uri>model://forest/materials/textures/heightmap.png</uri>
             <size> 100 100 1 </size>
             <pos>0 0 0.0</pos>
           </heightmap>
@@ -543,7 +543,7 @@
               <min_height>0.4 </min_height>
               <fade_dist>0.2 </fade_dist>
             </blend>
-            <uri>/home/jgoppert/git/fla/src/fla_description/models/forest/materials/textures/heightmap.png</uri>
+            <uri>model://forest/materials/textures/heightmap.png</uri>
             <size> 100 100 1 </size>
             <pos>0 0 0.0</pos>
           </heightmap>

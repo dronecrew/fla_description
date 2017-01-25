@@ -1,0 +1,4912 @@
+
+<?xml version="1.0" ?>
+<sdf version="1.5">
+    <model name="Stadium">
+        <static>true</static>
+
+        <link name="stadium">
+
+            <collision name="collision">
+                <geometry>
+                    <plane>
+                        <size>109.728  48.768</size>
+                    </plane>
+                </geometry>
+            </collision>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>109.728  48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <uri>model://stadium/materials/scripts</uri>
+                        <uri>model://stadium/materials/textures</uri>
+                        <name>vrc/grass</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_-50">
+            <pose>-45.72 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_-45">
+            <pose>-41.148 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_-40">
+            <pose>-36.576 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_-35">
+            <pose>-32.004 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_-30">
+            <pose>-27.432 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_-25">
+            <pose>-22.86 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_-20">
+            <pose>-18.288 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_-15">
+            <pose>-13.716 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_-10">
+            <pose>-9.144 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_-5">
+            <pose>-4.572 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_0">
+            <pose>0.0 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_5">
+            <pose>4.572 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_10">
+            <pose>9.144 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_15">
+            <pose>13.716 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_20">
+            <pose>18.288 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_25">
+            <pose>22.86 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_30">
+            <pose>27.432 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_35">
+            <pose>32.004 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_40">
+            <pose>36.576 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_45">
+            <pose>41.148 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_line_50">
+            <pose>45.72 0 0.01 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.1 48.768</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        
+
+        <link name="yard_tick_left_-50">
+            <pose>-45.72 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-50">
+            <pose>-45.72 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-49">
+            <pose>-44.8056 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-49">
+            <pose>-44.8056 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-48">
+            <pose>-43.8912 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-48">
+            <pose>-43.8912 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-47">
+            <pose>-42.9768 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-47">
+            <pose>-42.9768 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-46">
+            <pose>-42.0624 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-46">
+            <pose>-42.0624 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-45">
+            <pose>-41.148 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-45">
+            <pose>-41.148 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-44">
+            <pose>-40.2336 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-44">
+            <pose>-40.2336 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-43">
+            <pose>-39.3192 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-43">
+            <pose>-39.3192 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-42">
+            <pose>-38.4048 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-42">
+            <pose>-38.4048 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-41">
+            <pose>-37.4904 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-41">
+            <pose>-37.4904 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-40">
+            <pose>-36.576 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-40">
+            <pose>-36.576 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-39">
+            <pose>-35.6616 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-39">
+            <pose>-35.6616 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-38">
+            <pose>-34.7472 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-38">
+            <pose>-34.7472 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-37">
+            <pose>-33.8328 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-37">
+            <pose>-33.8328 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-36">
+            <pose>-32.9184 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-36">
+            <pose>-32.9184 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-35">
+            <pose>-32.004 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-35">
+            <pose>-32.004 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-34">
+            <pose>-31.0896 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-34">
+            <pose>-31.0896 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-33">
+            <pose>-30.1752 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-33">
+            <pose>-30.1752 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-32">
+            <pose>-29.2608 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-32">
+            <pose>-29.2608 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-31">
+            <pose>-28.3464 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-31">
+            <pose>-28.3464 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-30">
+            <pose>-27.432 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-30">
+            <pose>-27.432 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-29">
+            <pose>-26.5176 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-29">
+            <pose>-26.5176 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-28">
+            <pose>-25.6032 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-28">
+            <pose>-25.6032 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-27">
+            <pose>-24.6888 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-27">
+            <pose>-24.6888 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-26">
+            <pose>-23.7744 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-26">
+            <pose>-23.7744 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-25">
+            <pose>-22.86 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-25">
+            <pose>-22.86 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-24">
+            <pose>-21.9456 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-24">
+            <pose>-21.9456 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-23">
+            <pose>-21.0312 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-23">
+            <pose>-21.0312 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-22">
+            <pose>-20.1168 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-22">
+            <pose>-20.1168 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-21">
+            <pose>-19.2024 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-21">
+            <pose>-19.2024 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-20">
+            <pose>-18.288 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-20">
+            <pose>-18.288 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-19">
+            <pose>-17.3736 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-19">
+            <pose>-17.3736 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-18">
+            <pose>-16.4592 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-18">
+            <pose>-16.4592 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-17">
+            <pose>-15.5448 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-17">
+            <pose>-15.5448 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-16">
+            <pose>-14.6304 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-16">
+            <pose>-14.6304 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-15">
+            <pose>-13.716 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-15">
+            <pose>-13.716 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-14">
+            <pose>-12.8016 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-14">
+            <pose>-12.8016 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-13">
+            <pose>-11.8872 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-13">
+            <pose>-11.8872 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-12">
+            <pose>-10.9728 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-12">
+            <pose>-10.9728 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-11">
+            <pose>-10.0584 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-11">
+            <pose>-10.0584 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-10">
+            <pose>-9.144 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-10">
+            <pose>-9.144 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-9">
+            <pose>-8.2296 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-9">
+            <pose>-8.2296 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-8">
+            <pose>-7.3152 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-8">
+            <pose>-7.3152 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-7">
+            <pose>-6.4008 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-7">
+            <pose>-6.4008 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-6">
+            <pose>-5.4864 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-6">
+            <pose>-5.4864 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-5">
+            <pose>-4.572 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-5">
+            <pose>-4.572 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-4">
+            <pose>-3.6576 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-4">
+            <pose>-3.6576 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-3">
+            <pose>-2.7432 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-3">
+            <pose>-2.7432 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-2">
+            <pose>-1.8288 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-2">
+            <pose>-1.8288 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_-1">
+            <pose>-0.9144 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_-1">
+            <pose>-0.9144 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_0">
+            <pose>0.0 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_0">
+            <pose>0.0 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_1">
+            <pose>0.9144 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_1">
+            <pose>0.9144 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_2">
+            <pose>1.8288 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_2">
+            <pose>1.8288 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_3">
+            <pose>2.7432 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_3">
+            <pose>2.7432 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_4">
+            <pose>3.6576 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_4">
+            <pose>3.6576 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_5">
+            <pose>4.572 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_5">
+            <pose>4.572 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_6">
+            <pose>5.4864 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_6">
+            <pose>5.4864 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_7">
+            <pose>6.4008 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_7">
+            <pose>6.4008 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_8">
+            <pose>7.3152 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_8">
+            <pose>7.3152 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_9">
+            <pose>8.2296 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_9">
+            <pose>8.2296 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_10">
+            <pose>9.144 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_10">
+            <pose>9.144 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_11">
+            <pose>10.0584 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_11">
+            <pose>10.0584 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_12">
+            <pose>10.9728 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_12">
+            <pose>10.9728 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_13">
+            <pose>11.8872 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_13">
+            <pose>11.8872 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_14">
+            <pose>12.8016 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_14">
+            <pose>12.8016 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_15">
+            <pose>13.716 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_15">
+            <pose>13.716 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_16">
+            <pose>14.6304 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_16">
+            <pose>14.6304 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_17">
+            <pose>15.5448 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_17">
+            <pose>15.5448 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_18">
+            <pose>16.4592 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_18">
+            <pose>16.4592 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_19">
+            <pose>17.3736 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_19">
+            <pose>17.3736 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_20">
+            <pose>18.288 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_20">
+            <pose>18.288 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_21">
+            <pose>19.2024 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_21">
+            <pose>19.2024 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_22">
+            <pose>20.1168 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_22">
+            <pose>20.1168 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_23">
+            <pose>21.0312 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_23">
+            <pose>21.0312 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_24">
+            <pose>21.9456 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_24">
+            <pose>21.9456 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_25">
+            <pose>22.86 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_25">
+            <pose>22.86 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_26">
+            <pose>23.7744 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_26">
+            <pose>23.7744 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_27">
+            <pose>24.6888 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_27">
+            <pose>24.6888 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_28">
+            <pose>25.6032 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_28">
+            <pose>25.6032 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_29">
+            <pose>26.5176 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_29">
+            <pose>26.5176 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_30">
+            <pose>27.432 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_30">
+            <pose>27.432 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_31">
+            <pose>28.3464 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_31">
+            <pose>28.3464 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_32">
+            <pose>29.2608 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_32">
+            <pose>29.2608 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_33">
+            <pose>30.1752 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_33">
+            <pose>30.1752 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_34">
+            <pose>31.0896 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_34">
+            <pose>31.0896 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_35">
+            <pose>32.004 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_35">
+            <pose>32.004 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_36">
+            <pose>32.9184 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_36">
+            <pose>32.9184 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_37">
+            <pose>33.8328 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_37">
+            <pose>33.8328 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_38">
+            <pose>34.7472 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_38">
+            <pose>34.7472 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_39">
+            <pose>35.6616 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_39">
+            <pose>35.6616 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_40">
+            <pose>36.576 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_40">
+            <pose>36.576 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_41">
+            <pose>37.4904 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_41">
+            <pose>37.4904 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_42">
+            <pose>38.4048 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_42">
+            <pose>38.4048 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_43">
+            <pose>39.3192 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_43">
+            <pose>39.3192 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_44">
+            <pose>40.2336 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_44">
+            <pose>40.2336 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_45">
+            <pose>41.148 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_45">
+            <pose>41.148 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_46">
+            <pose>42.0624 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_46">
+            <pose>42.0624 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_47">
+            <pose>42.9768 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_47">
+            <pose>42.9768 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_48">
+            <pose>43.8912 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_48">
+            <pose>43.8912 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_49">
+            <pose>44.8056 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_49">
+            <pose>44.8056 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+        <link name="yard_tick_left_50">
+            <pose>45.72 8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        <link name="yard_tick_right_50">
+            <pose>45.72 -8.12 0.1 0 0 0</pose>
+
+            <visual name="visual">
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <plane>
+                        <size>0.05 1.0</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+
+        </link>
+
+        
+
+		
+
+		<link name="yard_top_right_10">
+			<pose>36.576 20 0.1 0 0 3.14</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_10</name>
+					</script>
+				</material>
+			</visual>
+
+		</link>
+
+		<link name="yard_top_left_10">
+			<pose>36.576 -20 0.1 0 0 0</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_10</name>
+					</script>
+				</material>
+			</visual>
+		</link>
+		
+
+		<link name="yard_top_right_20">
+			<pose>27.432 20 0.1 0 0 3.14</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_20</name>
+					</script>
+				</material>
+			</visual>
+
+		</link>
+
+		<link name="yard_top_left_20">
+			<pose>27.432 -20 0.1 0 0 0</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_20</name>
+					</script>
+				</material>
+			</visual>
+		</link>
+		
+
+		<link name="yard_top_right_30">
+			<pose>18.288 20 0.1 0 0 3.14</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_30</name>
+					</script>
+				</material>
+			</visual>
+
+		</link>
+
+		<link name="yard_top_left_30">
+			<pose>18.288 -20 0.1 0 0 0</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_30</name>
+					</script>
+				</material>
+			</visual>
+		</link>
+		
+
+		<link name="yard_top_right_40">
+			<pose>9.144 20 0.1 0 0 3.14</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_40</name>
+					</script>
+				</material>
+			</visual>
+
+		</link>
+
+		<link name="yard_top_left_40">
+			<pose>9.144 -20 0.1 0 0 0</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_40</name>
+					</script>
+				</material>
+			</visual>
+		</link>
+		
+
+		<link name="yard_top_right_50">
+			<pose>0.0 20 0.1 0 0 3.14</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_50</name>
+					</script>
+				</material>
+			</visual>
+
+		</link>
+
+		<link name="yard_top_left_50">
+			<pose>0.0 -20 0.1 0 0 0</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_50</name>
+					</script>
+				</material>
+			</visual>
+		</link>
+		
+
+		
+
+		<link name="yard_bottom_right_10">
+			<pose>-36.576 20 .1 0 0 3.14</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_10</name>
+					</script>
+				</material>
+			</visual>
+
+		</link>
+
+		<link name="yard_bottom_left_10">
+			<pose>-36.576 -20 0.1 0 0 0</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_10</name>
+					</script>
+				</material>
+			</visual>
+
+		</link>
+ 
+		
+
+		<link name="yard_bottom_right_20">
+			<pose>-27.432 20 .1 0 0 3.14</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_20</name>
+					</script>
+				</material>
+			</visual>
+
+		</link>
+
+		<link name="yard_bottom_left_20">
+			<pose>-27.432 -20 0.1 0 0 0</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_20</name>
+					</script>
+				</material>
+			</visual>
+
+		</link>
+ 
+		
+
+		<link name="yard_bottom_right_30">
+			<pose>-18.288 20 .1 0 0 3.14</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_30</name>
+					</script>
+				</material>
+			</visual>
+
+		</link>
+
+		<link name="yard_bottom_left_30">
+			<pose>-18.288 -20 0.1 0 0 0</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_30</name>
+					</script>
+				</material>
+			</visual>
+
+		</link>
+ 
+		
+
+		<link name="yard_bottom_right_40">
+			<pose>-9.144 20 .1 0 0 3.14</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_40</name>
+					</script>
+				</material>
+			</visual>
+
+		</link>
+
+		<link name="yard_bottom_left_40">
+			<pose>-9.144 -20 0.1 0 0 0</pose>
+
+			<visual name="visual">
+				<cast_shadows>false</cast_shadows>
+				<geometry>
+					<plane>
+						<size>2 2</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://stadium/materials/scripts</uri>
+						<uri>model://stadium/materials/textures</uri>
+						<name>yard_40</name>
+					</script>
+				</material>
+			</visual>
+
+		</link>
+ 
+		
+
+    </model>
+</sdf>
+
