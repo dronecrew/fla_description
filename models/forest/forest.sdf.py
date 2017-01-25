@@ -107,12 +107,12 @@ template_str = """<?xml version="1.0" ?>
               <size> {{ height * 0.4 }}</size>
             </texture>
             <blend>
-              <min_height> {{ height * 0.06 }} </min_height>
-              <fade_dist> {{ height * 0.4 }} </fade_dist>
+              <min_height> {{ height * 0.1 }} </min_height>
+              <fade_dist> {{ height * 0.1 }} </fade_dist>
             </blend>
             <blend>
-              <min_height>{{ height * 0.4 }} </min_height>
-              <fade_dist>{{ height * 0.2 }} </fade_dist>
+              <min_height>{{ height * 0.9 }} </min_height>
+              <fade_dist>{{ height * 0.1 }} </fade_dist>
             </blend>
             <uri>{{ heightmap_file }}</uri>
             <size> {{ width }} {{ width }} {{ height }} </size>

@@ -536,12 +536,12 @@
               <size> 0.4</size>
             </texture>
             <blend>
-              <min_height> 0.06 </min_height>
-              <fade_dist> 0.4 </fade_dist>
+              <min_height> 0.1 </min_height>
+              <fade_dist> 0.1 </fade_dist>
             </blend>
             <blend>
-              <min_height>0.4 </min_height>
-              <fade_dist>0.2 </fade_dist>
+              <min_height>0.9 </min_height>
+              <fade_dist>0.1 </fade_dist>
             </blend>
             <uri>model://forest/materials/textures/heightmap.png</uri>
             <size> 100 100 1 </size>
