@@ -41,7 +41,7 @@ function(glob_generate target file_glob)
 			list(APPEND gen_files ${out_file})
 		elseif (${file_ext} STREQUAL "jinja")
 			add_custom_command(OUTPUT ${out_file}
-				COMMAND ${PYTHON_EXECUTABLE} ${CMAKE_SOURCE_DIR}/scripts/jinja_gen.py ${in_file}
+				COMMAND ${PYTHON_EXECUTABLE} ${FLA_SOURCE_DIR}/scripts/jinja_gen.py ${in_file}
 				DEPENDS ${in_file}
 				VERBATIM
 				)
